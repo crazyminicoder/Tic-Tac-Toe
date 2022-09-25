@@ -128,15 +128,15 @@ useEffect(()=>{
       <h1 id='O'>O : {oScore}</h1>
       </div>
       <div className='game_board'>
-        <Squares value={currentState[0]} onClick={()=> clickHandler(0)}/>
-        <Squares value={currentState[1]} onClick={()=> clickHandler(1)}/>
-        <Squares value={currentState[2]} onClick={()=> clickHandler(2)}/>
-        <Squares value={currentState[3]} onClick={()=> clickHandler(3)}/>
-        <Squares value={currentState[4]} onClick={()=> clickHandler(4)}/>
-        <Squares value={currentState[5]} onClick={()=> clickHandler(5)}/>
-        <Squares value={currentState[6]} onClick={()=> clickHandler(6)}/>
-        <Squares value={currentState[7]} onClick={()=> clickHandler(7)}/>
-        <Squares value={currentState[8]} onClick={()=> clickHandler(8)}/>
+        <Squares value={currentState[0]} onClick={()=> clickHandler(0) }/>
+        <Squares value={currentState[1]} onClick={()=> clickHandler(1) }/>
+        <Squares value={currentState[2]} onClick={()=> clickHandler(2)  }/>
+        <Squares value={currentState[3]} onClick={()=> clickHandler(3)  }/>
+        <Squares value={currentState[4]} onClick={()=> clickHandler(4)  }/>
+        <Squares value={currentState[5]} onClick={()=> clickHandler(5)  }/>
+        <Squares value={currentState[6]} onClick={()=> clickHandler(6)  }/>
+        <Squares value={currentState[7]} onClick={()=> clickHandler(7)  }/>
+        <Squares value={currentState[8]} onClick={()=> clickHandler(8)  }/>
       </div>
     </div>
   );
